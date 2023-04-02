@@ -1,4 +1,4 @@
-*Make sur to add in es_extended/sever/commun.lua this :*
+*Assurez-vous d'ajouter la commande suivante dans : es_extended/sever/commun.lua this :*
 
 ESX.AddJob = function(jobInfo)
 	if not ESX.Jobs[jobInfo.name] then 
